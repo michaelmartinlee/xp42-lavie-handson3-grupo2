@@ -28,6 +28,7 @@ router.get("/pacientes", PacienteController.index);
 router.post("/pacientes", pacienteStoreUpadateValidation, PacienteController.store);
 router.get("/pacientes/:id", PacienteController.show);
 router.put("/pacientes/:id", PacienteController.update);
+router.put("/pacientes/:id", pacienteStoreUpadateValidation, PacienteController.update);
 router.delete("/pacientes/:id", PacienteController.destroy);
 
 router.get("/atendimentos", AtendimentoController.index);
