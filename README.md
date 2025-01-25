@@ -1,64 +1,44 @@
 # Clinica Lavie HandsOn 3
 
-Para ajudar nos atendimentos, eles precisam de uma API que permita criar registros de psicólogos, pacientes e prontuários. Em uma conversa com os Front-end eosPOforam decididos alguns grupos de endpoints que devem ser criados.
+To assist with services, they need an API that allows creating records for psychologists, patients, and medical records. During a conversation with the Front-end team and the Product Owners (PO), several groups of endpoints were decided upon.
 
+## 📋 Prerequisites
 
-## 📋 Pré-requisitos
+This project was developed in Node.js, so it requires installation (to install Node.js, [click here](https://nodejs.org/en/)).
 
-Esse projeto foi realizado em node, portanto necessita da instalação ( para instalar o Node.js , [clique aui](https://nodejs.org/en/) )
+## 📝 Features
 
-### 🔧 Instalação
+#### Database
 
-Com Node.js já instalado, basta clonar o repósitorio, colocando esse comando no terminal:
+Creation of the ERD (Entity Relationship Diagram) and the SQL script to generate the database. The endpoints must be analyzed to structure the database according to the requirements, considering the data that make up the three entities of the system:
+- Patients
+- Psychologists
+- Services
 
-```
-git clone https://github.com/rafaelsangali/xp42-lavie-handson3-grupo2.git
-```
-Logo após instalar os pacotes e dependências:
-
-```
-npm install
-```
-
-
-## 📝 Funcionalidades
-
-#### Banco de dados
-
-Criação do DER e do script SQL que gera o banco. Deve ser analisado os endpoints para seja montado de acordo com a necessidade,
-observando os dados que constituem a 3 entidades do sistema:
-- Pacientes
-- Psicólogos
-- Atendimentos
-
-O script do banco de dados está localizado em src/database/database.sql
+The database script is located in `src/database/database.sql`.
 
 #### BackEnd
 
 - Login
-- CRUD Psicólogos
-- CRUD Pacientes
-- CRUD Atendimentos
+- CRUD Psychologists
+- CRUD Patients
+- CRUD Services
 - Dashboard
 
-Para mais informações acesse a documentação da Api [clicando aqui](https://rafaelsangali.github.io/xp42-lavie-handson3-grupo2/)
+For more information, access the API documentation by [clicking here](https://rafaelsangali.github.io/xp42-lavie-handson3-grupo2/).
 
-
-## ✒️ Autores
+## ✒️ Authors
 
 * [Felix Membrive](https://github.com/FelixMembrive)
 * [Maycon Rocha](https://github.com/minrocha)
 * [Rafael Sangali](https://github.com/rafaelsangali)
 * [Brenno Savio](https://github.com/Brenno-Savio)
 
-## 📄 Licença
+## 📄 License
 
+## 🎁 Expressions of Gratitude
 
-
-## 🎁 Expressões de gratidão
-
-* Pode ser algo simples, mas essêncial no nosso aprendizado 🤓
-* Conte a outras pessoas sobre este projeto 📢
-* Convide alguém da equipe para uma cerveja 🍺 
-* Obrigado chegar até aqui 🤜🤛
-
+* It may be simple, but it is essential to our learning 🤓
+* Share this project with others 📢
+* Invite someone from the team for a beer 🍺 
+* Thank you for getting this far 🤜🤛
